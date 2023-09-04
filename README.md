@@ -1,0 +1,1 @@
+Simple Snake game created in Python with Pygame
