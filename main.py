@@ -14,7 +14,7 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 background_color = (30, 30, 30) 
 
 pygame.display.set_caption("Snake")
-icon = pygame.image.load("assets/icon.png")
+icon = pygame.image.load("assets/icon.bmp")
 pygame.display.set_icon(icon)
 
 snake = Snake()
