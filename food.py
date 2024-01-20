@@ -6,7 +6,7 @@ class Food:
     def __init__(self, width, height):
         self.WIDTH = width
         self.HEIGHT = height
-        self.food_image = pygame.image.load("assets/food.bmp")  # Load the food image
+        self.food_image = pygame.image.load("assets/food.bmp")
         self.position = self.spawn_food()
 
     def spawn_food(self):
